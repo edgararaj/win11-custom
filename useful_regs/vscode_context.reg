@@ -1,0 +1,29 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\VSCode]
+"MUIVerb"="Edit in VSCode"
+"Icon"="C:\\Users\\Edgar\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe,0"
+
+[HKEY_CLASSES_ROOT\*\Shell\VSCode\command]
+@="C:\\Users\\Edgar\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe \"%V\""
+
+[HKEY_CLASSES_ROOT\Directory\shell\VSCode]
+"MUIVerb"="Open in VSCode"
+"Icon"="C:\\Users\\Edgar\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe,0"
+
+[HKEY_CLASSES_ROOT\Directory\Shell\VSCode\command]
+@="C:\\Users\\Edgar\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe \"%V\""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\VSCode]
+"MUIVerb"="Open in VSCode"
+"Icon"="C:\\Users\\Edgar\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe,0"
+
+[HKEY_CLASSES_ROOT\Directory\Background\Shell\VSCode\command]
+@="C:\\Users\\Edgar\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe \"%V\""
+
+[HKEY_CLASSES_ROOT\Drive\shell\VSCode]
+"MUIVerb"="Open in VSCode"
+"Icon"="C:\\Users\\Edgar\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe,0"
+
+[HKEY_CLASSES_ROOT\Drive\Shell\VSCode\command]
+@="C:\\Users\\Edgar\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe \"%V\""

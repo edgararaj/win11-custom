@@ -1,0 +1,72 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\shell\OpenWSLHere]
+"MUIVerb"="Open in WSL"
+"Icon"="wsl.exe,0"
+
+[HKEY_CLASSES_ROOT\Directory\Shell\OpenWSLHere\command]
+@="wsl.exe --cd \"%V\\.\""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\OpenWSLHere]
+"MUIVerb"="Open in WSL"
+"Icon"="wsl.exe,0"
+
+[HKEY_CLASSES_ROOT\Directory\Background\Shell\OpenWSLHere\command]
+@="wsl.exe --cd \"%V\\.\""
+
+[HKEY_CLASSES_ROOT\Drive\shell\OpenWSLHere]
+"MUIVerb"="Open in WSL"
+"Icon"="wsl.exe,0"
+
+[HKEY_CLASSES_ROOT\Drive\Shell\OpenWSLHere\command]
+@="wsl.exe --cd \"%V\\.\""
+
+
+
+
+[HKEY_CLASSES_ROOT\Directory\shell\OpenWTHere]
+"MUIVerb"="Open in Terminal"
+"Icon"="imageres.dll,-5323"
+
+[HKEY_CLASSES_ROOT\Directory\Shell\OpenWTHere\command]
+@="wt.exe -d \"%V\""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\OpenWTHere]
+"MUIVerb"="Open in Terminal"
+"Icon"="imageres.dll,-5323"
+
+[HKEY_CLASSES_ROOT\Directory\Background\Shell\OpenWTHere\command]
+@="wt.exe -d \"%V\""
+
+[HKEY_CLASSES_ROOT\Drive\shell\OpenWTHere]
+"MUIVerb"="Open in Terminal"
+"Icon"="imageres.dll,-5323"
+
+[HKEY_CLASSES_ROOT\Drive\Shell\OpenWTHere\command]
+@="wt.exe -d \"%V\""
+
+
+
+[HKEY_CLASSES_ROOT\Directory\shell\OpenWTHereAsAdmin]
+"HasLUAShield"=""
+"MUIVerb"="Open in Terminal (Admin)"
+"Icon"="imageres.dll,-5323"
+
+[HKEY_CLASSES_ROOT\Directory\Shell\OpenWTHereAsAdmin\command]
+@="powershell.exe -WindowStyle Hidden \"Start-Process -Verb RunAs cmd.exe -ArgumentList @('/c','start wt.exe','-d','\"\"\"%V\\.\"\"\"')\""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\OpenWTHereAsAdmin]
+"HasLUAShield"=""
+"MUIVerb"="Open in Terminal (Admin)"
+"Icon"="imageres.dll,-5323"
+
+[HKEY_CLASSES_ROOT\Directory\Background\Shell\OpenWTHereAsAdmin\command]
+@="powershell.exe -WindowStyle Hidden \"Start-Process -Verb RunAs cmd.exe -ArgumentList @('/c','start wt.exe','-d','\"\"\"%V\\.\"\"\"')\""
+
+[HKEY_CLASSES_ROOT\Drive\shell\OpenWTHereAsAdmin]
+"HasLUAShield"=""
+"MUIVerb"="Open in Terminal (Admin)"
+"Icon"="imageres.dll,-5323"
+
+[HKEY_CLASSES_ROOT\Drive\Shell\OpenWTHereAsAdmin\command]
+@="powershell.exe -WindowStyle Hidden \"Start-Process -Verb RunAs cmd.exe -ArgumentList @('/c','start wt.exe','-d','\"\"\"%V\\.\"\"\"')\""

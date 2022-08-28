@@ -1,0 +1,17 @@
+{
+    "explorer.confirmDragAndDrop": false,
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "files.associations": {
+        "*.psi": "python"
+    },
+    "editor.fontFamily": "FiraCode NF",
+    "editor.lineHeight": 20,
+    "editor.wordWrap": "on",
+    "editor.largeFileOptimizations": false,
+    "cmake.configureOnOpen": false,
+    "workbench.iconTheme": "vscode-jetbrains-icon-theme",
+    "workbench.colorTheme": "Darcula - Dark Mode",
+    "git.decorations.enabled": false,
+    "C_Cpp.default.cppStandard": "c++23",
+    "C_Cpp.default.cStandard": "c17",
+}
